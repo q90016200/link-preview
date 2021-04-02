@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("arg1")
 args = parser.parse_args()
 # print(f"第 1 個引數：{args.arg1:^10}，type={type(args.arg1)}")
-url = unquote(args.arg1)
+url = args.arg1
 # print("網址為:", url)
 
 
@@ -103,8 +103,8 @@ parseData["title"] = title
 parseData["description"] = description
 parseData["img"] = img
 
-print(parseData)
-# print(json.dumps(parseData, ensure_ascii=False))
+# print(parseData)
+print(json.dumps(parseData, ensure_ascii=False))
 
 
 
