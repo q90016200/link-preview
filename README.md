@@ -15,5 +15,5 @@ usage ex:
 ```
 response:
 ```
-https://github.com/q90016200/link-preview
+{"url": "https://www.google.com/", "title": "Google", "description": null, "img": "https://www.google.com/images/hpp/Chrome_Owned_96x96.png"}
 ```
